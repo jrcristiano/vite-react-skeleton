@@ -8,6 +8,8 @@ import Default from './layouts/Default';
 import NotFound from './pages/NotFound';
 import routes from './routes';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 ReactDOM.createRoot(
 	document.getElementById('root')!
 ).render(

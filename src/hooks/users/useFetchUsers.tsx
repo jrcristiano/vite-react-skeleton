@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import api from '../../boot/api';
-import User from '../../types/user';
+import User from '../../common/types/user';
 
 async function useFetchUsers() {
 	const [users, setUsers] = useState<User[]>([]);
